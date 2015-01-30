@@ -1,0 +1,265 @@
+
+
+	hr { 
+		display: block; 
+		height: 3px;
+    	border: 0; 
+    	border-top: 1px solid #ccc;
+    	margin:0 auto; 
+    	padding: 0;
+    	border-color: black; 
+    }
+    header{
+    background: -moz-linear-gradient(#D4D7D7 ,white, #D4D7D7); 
+    	padding: 0 20px;
+/* For Firefox 3.6 to 15 */
+}
+    #headerlogo{
+    	margin-left: 20px;
+    }
+    #headerreturns{
+    	position:absolute;
+    	top: 130px;
+    	left:500px;
+    	font-family: "Comic Sans MS", cursive, sans-serif;
+		color:#990033;
+		font-weight: bold;
+    }
+    #headercashonreturns{
+    	 position:absolute;
+    	 top: 130px;
+    	 left:700px;
+    	 font-family: "Comic Sans MS", cursive, sans-serif;
+		 color:#990033;
+		 font-weight: bold;
+    }
+    nav{
+    	height:38px;
+		width:1330px ;
+		background-color:gray ;
+		box-shadow: 10px 10px 5px #990033;
+    }
+    #cssmenu,#cart,#registration{
+    	display: inline;
+    }
+    #cssmenu{
+    	float: left ;
+		font-size: 22px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		color:gray;
+		text-decoration: none;
+    }
+	#registration{
+			float: right;
+			line-height: 1px;
+		}
+	#registration ul{
+			float: left;
+		}
+	#registration ul li{
+
+			float: left;
+			padding: 0 20px;
+		}
+	#registration ul li a{
+			font-size: 22px;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			color:white;
+			text-decoration: none;
+
+		}
+
+	#cart{
+			float: left;
+			margin-left: 50px;
+		}
+	#sliderFrame{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	
+	#Ad1{
+		top:800px;
+		left: 20px;
+		position: absolute;
+	}
+	#Ad2{
+		top:1000px;
+		left: 20px;
+		position: absolute;
+	}
+
+	#Maintable {
+
+	 border-spacing: 10px;
+	 border-collapse: separate;
+	 
+
+	
+}
+#Maintd {
+	width: 300px;
+	padding: 6px;
+    background-color: white ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #990033;
+	word-wrap: break-word ;
+	
+}
+h1{
+	color: #990033;
+	 text-align: center;
+	 font-size: 20px;
+}
+
+#price{
+	text-align: center;
+	 font-weight: bold;
+}
+#imag{
+	 width: 50%;
+    margin: 0 auto;
+	
+}
+#descrptn{
+	color: ##280918;
+}
+#viewItem {
+	
+	    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+     background-color: #383838;
+    width: 100px;
+    border-radius: 25px;
+}
+#viewItem a{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:white;
+}
+
+#results{
+
+ border-left: 1px solid black;
+  float:right;
+	width:75%;
+	overflow:hidden;
+}
+.sections {
+
+font-family: "Comic Sans MS", cursive, sans-serif;
+float: left;
+margin: 5px;
+padding: 15px;
+width: 300px;
+display: inline;
+} 
+.sections p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:black;
+
+} 
+footer{
+	background-color: red;
+	margin-top: 20px;
+	 clear:both;
+
+}
+#wrapper{
+	 
+    overflow: auto; 
+    margin:0;
+    margin-bottom: 50px;
+   margin-top: 50px;
+}
+h2{
+	color: #990033;
+	
+	 font-size: 20px;
+}
+#footermiddle{
+
+	margin-right: 100px;
+	margin-left: 100px;
+}
+#footerleft{
+	float: left;
+}
+#footerright{
+	float : right;
+}
+#tablesection{
+	margin-bottom: 50px;
+}
+#carttable{
+ margin-top:50px;
+    color: black;
+    border-spacing: collapse;
+     border: 1px thin black;
+     margin-left: 50px;
+}
+#carttable, #carttable td{
+	 border: 1px solid black;
+    border-collapse: collapse;
+}
+#carttable td{
+	width: 200px;
+}
+
+#cover{
+
+		width: 300px;
+	
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #990033;
+	margin-left: 350px;
+	margin-top: 150px;
+	width: 700px;
+	height: 300px;
+	margin-bottom: 30px;
+
+}
+#subcover{
+	width: 700px; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+#coveredimg{
+			margin-left: 10px;
+		position: absolute;
+}
+#details{
+	 float:right;
+	width:75%;
+	overflow:hidden;
+}
+#detname{
+ font-family: "Comic Sans MS", cursive, sans-serif;
+		 color:#990033;
+		 font-weight: bold;
+		 font: 50px;
+		 text-align: center;
+}
+#detdescrptn{
+ont-family: "Comic Sans MS", cursive, sans-serif;
+		 color:black;
+		 font-weight: bold;
+		 font: 30px;
+		 word-wrap: break-word ;
+
+}
+#detprice{
+ font-family: "Comic Sans MS", cursive, sans-serif;
+		 color:#990033;
+		 font-weight: bold;
+		 font: 100px;
+		 text-align: center;
+		 float: bottom;
+
+}
