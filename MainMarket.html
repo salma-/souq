@@ -8,82 +8,21 @@
 		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<link href="themes/4/js-image-slider.css" rel="stylesheet" type="text/css" />
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="styles.css">
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   	<script src="themes/4/js-image-slider.js" type="text/javascript"></script>
-    <link href="themes/1/tooltip.css" rel="stylesheet" type="text/css" />
-    <script src="themes/1/tooltip.js" type="text/javascript"></script>
+   		<script src="themes/4/js-image-slider.js" type="text/javascript"></script>
 	</head>
-	<body> 
+
+	<body>
+
 		<header>
-            <iframe style="float:right"src="http://free.timeanddate.com/clock/i4irfe7d/n53/tleg/fn7/fs18/fc333/tct/pct/ftb/tt0/td2/th1/tb2" frameborder="0" width="383" height="27" allowTransparency="true"></iframe>
 				<img src="images/logo.png" alt="Market Logo" id="headerlogo">
      			<abbr  title="Changed your mind, you can return your product and get a full refund." id="headerreturns"><img src="images/returns.png" alt="free returns"> Free returns </abbr>
       			<abbr  title="Pay for your order in cash at the moment the shipment is delivered to your doorstep." id="headercashonreturns"><img src="images/del.png" alt="cash on delivery"> Cash on delivery</abbr>
-      	
+      		
         </header>
         	<nav>
-                  <div id="cssmenu" style="background-color:gray">
-                     <ul>
- 				               <li  class='active has-sub' id = "shop"><a href='#'><span>Shop</span></a>
-                             
-                                                <ul>
-                                                    <li>
-          
-                                                           <a href="mob.html"><span>Mobiles</span></a>
-                                                            
-                                                    </li>
-                                                 
-                                                      <li><a href='product.html'><span>Computers</span></a></li>
-                                                    <li class='has-sub'><a href='product.html'><span>Electronics</span></a>
-                                                              <ul>
-                                                                       <li class='has-sub'><a href='product.html'><span>Televisions</span></a>
-                                                                             
-                                                                      </li>
-
-                                                                      <li class='has-sub'><a href='product.html'><span>Cameras</span></a>
-                                                                              
-                                                                      </li>
-                                                              </ul>
-                                                    </li>
-                                                     <li class='has-sub'><a href='product.html'><span>Watches</span></a>
-                                                              <ul>
-                                                                       <li class='has-sub'><a href='product.html'><span>Him</span></a>
-                                                                            
-                                                                      </li>
-
-                                                                      <li class='has-sub'><a href='product.html'><span>Her</span></a>
-                                                                               
-                                                                      </li>
-                                                                        <li class='has-sub'><a href='product.html'><span>Children</span></a>
-                                                                               
-                                                                      </li>
-                                                              </ul>
-                                                    </li>
-                                                         <li class='has-sub'><a href='product.html'><span>Clothing</span></a>
-                                                              <ul>
-                                                                       <li class='has-sub'><a href='#'><span>Him</span></a>
-                                                                            
-                                                                      </li>
-
-                                                                      <li class='has-sub'><a href='#'><span>Her</span></a>
-                                                                               
-                                                                      </li>
-                                                                        <li class='has-sub'><a href='#'><span>Children</span></a>
-                                                                                
-                                                                      </li>
-                                                              </ul>
-                                                    </li>
-                                                      <li><a href='#'><span>Toys</span></a></li>
-                                                      <li><a href='#'><span>Books</span></a></li>
-
-                                                 
-                                                </ul>    
-
-                              	 </li>
-                                </ul>                  
-                        </div>                                 
+                 <div id= "categories">
+         <a href=""> Shop all categories | </a>
+         </div>                        
  				    <div id="cart">
  				 	              <a href="mycart.html">	<img src="images/cart.png" title="cart"></a>
  				    </div>
@@ -119,21 +58,23 @@
                   </div>
         </div>
 
-                <script type="text/javascript">
+                                              <script type="text/javascript">
                                                   //The following script is for the group 2 navigation buttons.
-                  function switchAutoAdvance() {
-                     imageSlider.switchAuto();
-                     switchPlayPauseClass();
-                        }
-                     function switchPlayPauseClass() {
-                        var auto = document.getElementById('auto');
-                        var isAutoPlay = imageSlider.getAuto();
-                        auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
-                        auto.title = isAutoPlay ? "Pause" : "Play";
-                            }
-                        switchPlayPauseClass();
-                </script>	
-   <div id="cssmenu">
+                                                  function switchAutoAdvance() {
+                                                      imageSlider.switchAuto();
+                                                      switchPlayPauseClass();
+                                                  }
+                                                  function switchPlayPauseClass() {
+                                                      var auto = document.getElementById('auto');
+                                                      var isAutoPlay = imageSlider.getAuto();
+                                                      auto.className = isAutoPlay ? "group2-Pause" : "group2-Play";
+                                                      auto.title = isAutoPlay ? "Pause" : "Play";
+                                                  }
+                                                  switchPlayPauseClass();
+                                              </script>	
+<hr>
+         <div id="wrapper">
+            <div id="cssmenu">
           
                        
                              
@@ -144,7 +85,7 @@
                                                             
                                                     </li>
                                                  
-                                                      <li><a href='product.html'><span>Computers</span></a></li>
+                                                      <li><a href=''><span>Computers</span></a></li>
                                                     <li class='has-sub'><a href='#'><span>Electronics</span></a>
                                                               <ul>
                                                                        <li class='has-sub'><a href='#'><span>Televisions</span></a>
@@ -156,64 +97,60 @@
                                                                       </li>
                                                               </ul>
                                                     </li>
-                                                     <li class='has-sub'><a href='product.html'><span>Watches</span></a>
+                                                     <li class='has-sub'><a href='#'><span>Watches</span></a>
                                                               <ul>
-                                                                       <li class='has-sub'><a href='product.html'><span>Him</span></a>
+                                                                       <li class='has-sub'><a href='#'><span>Him</span></a>
                                                                             
                                                                       </li>
 
-                                                                      <li class='has-sub'><a href='product.html'><span>Her</span></a>
+                                                                      <li class='has-sub'><a href='#'><span>Her</span></a>
                                                                                
                                                                       </li>
-                                                                        <li class='has-sub'><a href='product.html'><span>Children</span></a>
+                                                                        <li class='has-sub'><a href='#'><span>Children</span></a>
                                                                                
                                                                       </li>
                                                               </ul>
                                                     </li>
-                                                         <li class='has-sub'><a href='product.html'><span>Clothing</span></a>
+                                                         <li class='has-sub'><a href='#'><span>Clothing</span></a>
                                                               <ul>
-                                                                       <li class='has-sub'><a href='product.html'><span>Him</span></a>
+                                                                       <li class='has-sub'><a href='#'><span>Him</span></a>
                                                                             
                                                                       </li>
 
-                                                                      <li class='has-sub'><a href='product.html'><span>Her</span></a>
+                                                                      <li class='has-sub'><a href='#'><span>Her</span></a>
                                                                                
                                                                       </li>
-                                                                        <li class='has-sub'><a href='product.html'><span>Children</span></a>
+                                                                        <li class='has-sub'><a href='#'><span>Children</span></a>
                                                                                 
                                                                       </li>
                                                               </ul>
                                                     </li>
-                                                      <li><a href='product.html'><span>Toys</span></a></li>
-                                                      <li><a href='product.html'><span>Books</span></a></li>
+                                                      <li><a href='#'><span>Toys</span></a></li>
+                                                      <li><a href='#'><span>Books</span></a></li>
 
                                                  
                                                 </ul>      
    
         </div >
-<hr>
                 
-     <div id="Advs">
-        <img style="position: absolute; left: 10px;top: 1010px;" src= "images/Call_2_Order-en.jpg"  >
-        <img style="position: absolute; left: 10px;top: 1200px;" src= "images/samsung.jpg">
-        <img style="position: absolute; left: 10px;top: 1400px;" src= "images/watches_Generic.jpg">
-
-      </div>
+         <div id="Advs">
+      		    <img style="position: absolute; left: 10px;top: 1100px;" src= "images/Call_2_Order-en.jpg"  >
+              <img style="position: absolute; left: 10px;top: 1250px;" src= "images/samsung.jpg">
+              <img style="position: absolute; left: 10px;top: 1550px;" src= "images/watches_Generic.jpg">
+     	 </div>
 
 		<div id="results">
-		     	<table id="Maintable" >
+		     	<table id="Maintable">
 								<tr>
 									
 								
 									<td id="Maintd">
-                              <div id= "imag">
-                                <img src= "images/rs_watch.jpg" alt ="socks" >
-                              </div>
+                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
                               <h1>Watch</h1>
                               <p id="descrptn">This is watch description</p>
                               <p id= "price">150.00 &euro; </p>
-                              <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
+                              <div id= "viewItem">
+                               <a href="product.html">View Item</a>   
                               </div>
                            </td>
 
@@ -222,8 +159,15 @@
                               <h1>Watch</h1>
                               <p id="descrptn">This is watch description</p>
                               <p id= "price">150.00 &euro; </p>
-                                <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
                               </div>
                            </td>
 
@@ -232,41 +176,15 @@
                               <h1>Watch</h1>
                               <p id="descrptn">This is watch description</p>
                               <p id= "price">150.00 &euro; </p>
-                                <div id= "viewItem"  >
-                            <a href="product.html">Veiw Item</a>  
-                      </div>
-                           </td>
-								</tr>
-									<tr>
-									
-								
-									<td id="Maintd">
-                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
-                              <h1>Watch</h1>
-                              <p id="descrptn">This is watch description</p>
-                              <p id= "price">150.00 &euro; </p>
-                                <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
-                              </div>
-                           </td>
-
-									<td id="Maintd">
-                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
-                              <h1>Watch</h1>
-                              <p id="descrptn">This is watch description</p>
-                              <p id= "price">150.00 &euro; </p>
-                               <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
-                              </div>
-                           </td>
-                           	
-									<td id="Maintd">
-                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
-                              <h1>Watch</h1>
-                              <p id="descrptn">This is watch description</p>
-                              <p id= "price">150.00 &euro; </p>
-                               <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
                               </div>
                            </td>
 								</tr>
@@ -278,8 +196,15 @@
                               <h1>Watch</h1>
                               <p id="descrptn">This is watch description</p>
                               <p id= "price">150.00 &euro; </p>
-                                <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
                               </div>
                            </td>
 
@@ -288,8 +213,15 @@
                               <h1>Watch</h1>
                               <p id="descrptn">This is watch description</p>
                               <p id= "price">150.00 &euro; </p>
-                              <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
                               </div>
                            </td>
                            	
@@ -298,10 +230,70 @@
                               <h1>Watch</h1>
                               <p id="descrptn">This is watch description</p>
                               <p id= "price">150.00 &euro; </p>
-                              <div id= "viewItem"  >
-                                <a href="product.html">Veiw Item</a>  
-                              </div>   
-                        
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
+                              </div>
+                           </td>
+								</tr>
+									<tr>
+									
+								
+									<td id="Maintd">
+                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
+                              <h1>Watch</h1>
+                              <p id="descrptn">This is watch description</p>
+                              <p id= "price">150.00 &euro; </p>
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
+                              </div>
+                           </td>
+
+									<td id="Maintd">
+                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
+                              <h1>Watch</h1>
+                              <p id="descrptn">This is watch description</p>
+                              <p id= "price">150.00 &euro; </p>
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
+                              </div>
+                           </td>
+                           	
+									<td id="Maintd">
+                              <div id= "imag"><img src= "images/rs_watch.jpg" alt ="socks" ></div>
+                              <h1>Watch</h1>
+                              <p id="descrptn">This is watch description</p>
+                              <p id= "price">150.00 &euro; </p>
+                              <div id= "viewItem">
+                               <a class="tooltip" href="#demo2_tip" onmouseover="tooltip.pop(this, '#demo2_tip', {sticky:true})">View Item</a>
+                                      <div style="display:none;">
+                                          <div id="demo2_tip">
+                                              <img src="images/first.jpg" style="float:right;margin-left:12px;" alt="" />
+                                              <b>SEO</b><br /><br />
+                                              The tooltip content comes from an element on the page. So this approach is <strong>Search Engine Friendly</strong>.
+                                          </div>
+                                      </div>    
+                              </div>
                            </td>
 								</tr>
 								 
@@ -310,6 +302,7 @@
 				
 				
 		</div> 
+			</div>
 	    <hr> 
 		                  
  	<footer>

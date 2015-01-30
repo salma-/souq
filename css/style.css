@@ -9,11 +9,7 @@
     	padding: 0;
     	border-color: black; 
     }
-    header{
-    background: -moz-linear-gradient(#D4D7D7 ,white, #D4D7D7); 
-    	padding: 0 20px;
-/* For Firefox 3.6 to 15 */
-}
+
     #headerlogo{
     	margin-left: 20px;
     }
@@ -21,7 +17,7 @@
     	position:absolute;
     	top: 130px;
     	left:500px;
-    /*	font-family: "Comic Sans MS", cursive, sans-serif;*/
+    	font-family: "Comic Sans MS", cursive, sans-serif;
 		color:#990033;
 		font-weight: bold;
     }
@@ -39,16 +35,20 @@
 		background-color:gray ;
 		box-shadow: 10px 10px 5px #990033;
     }
-    #cssmenu,#cart,#registration{
+    #categories,#cart{
+	float: left ;
+
+}
+#categories a{
+	font-size: 22px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:white;
+	text-decoration: none;
+}
+    #categories,#cart,#registration{
     	display: inline;
     }
-    #cssmenu{
-    	float: left ;
-		font-size: 22px;
-		font-family: "Comic Sans MS", cursive, sans-serif;
-		color:gray;
-		text-decoration: none;
-    }
+   
 	#registration{
 			float: right;
 			line-height: 1px;
@@ -104,7 +104,6 @@
     border-radius: 20px;
     box-shadow: 5px 5px 5px #990033;
 	word-wrap: break-word ;
-	
 }
 h1{
 	color: #990033;
@@ -145,6 +144,12 @@ h1{
 #results{
 
  border-left: 1px solid black;
+  float:right;
+	width:75%;
+	overflow:hidden;
+}
+#resultsv2{
+	border-left: 1px solid black;
   float:right;
 	width:75%;
 	overflow:hidden;
@@ -194,6 +199,7 @@ h2{
 }
 #tablesection{
 	margin-bottom: 50px;
+	margin-left: 50px;
 }
 #carttable{
  margin-top:50px;
@@ -224,7 +230,7 @@ h2{
 
 }
 #subcover{
-	width: 700px; /*can be in percentage also.*/
+	width: 700px; 
     height: auto;
     margin: 0 auto;
     padding: 10px;
@@ -261,5 +267,33 @@ ont-family: "Comic Sans MS", cursive, sans-serif;
 		 font: 100px;
 		 text-align: center;
 		 float: bottom;
+
+}
+
+#priceCheckbox,#brandsCheckbox{
+ 
+ padding: 6px;
+    background-color: white ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #990033;
+	word-wrap: break-word ;
+	margin-bottom: 20px;
+	margin-left: 40px;
+	-webkit-box-shadow: 0 0 10px gray;
+        box-shadow: 0 0 10px gray;
+}
+ 
+ 
+#pricestable{
+
+}
+ 
+#brandstable{
+	
+}
+#BrandedElement{
+	margin-top: 400px;
+
+	float: left;
 
 }
